@@ -467,6 +467,7 @@ typedef enum MAV_CMD
 #include "../cubepilot/cubepilot.h"
 #include "../csAirLink/csAirLink.h"
 #include "../marsh/marsh.h"
+#include "../jetshark/jetshark.h"
 
 
 #if MAVLINK_ALL_XML_HASH == MAVLINK_PRIMARY_XML_HASH
