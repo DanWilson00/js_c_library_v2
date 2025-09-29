@@ -2,7 +2,7 @@
 <mavlink>
   <include>common.xml</include>
   <messages>
-    <message id="180" name="ULTRAMOTION_PORT">
+    <message id="30180" name="ULTRAMOTION_PORT">
       <description>Telemetry from the port ultramotion actuator</description>
       <field type="float" name="pos_cmd">Commanded position [-1, 1]</field>
       <field type="float" name="pos">Sensed position [-1, 1]</field>
@@ -15,7 +15,7 @@
       <field type="uint8_t" name="rx_error">Rx error</field>
       <field type="uint8_t" name="tx_error">Tx error</field>
     </message>
-    <message id="181" name="ULTRAMOTION_SB">
+    <message id="30181" name="ULTRAMOTION_SB">
       <description>Telemetry from the sb ultramotion actuator</description>
       <field type="float" name="pos_cmd">Commanded position [-1, 1]</field>
       <field type="float" name="pos">Sensed position [-1, 1]</field>
@@ -28,7 +28,7 @@
       <field type="uint8_t" name="rx_error">Rx error</field>
       <field type="uint8_t" name="tx_error">Tx error</field>
     </message>
-    <message id="182" name="ULTRAMOTION_REAR">
+    <message id="30182" name="ULTRAMOTION_REAR">
       <description>Telemetry from the rear ultramotion actuator</description>
       <field type="float" name="pos_cmd">Commanded position [-1, 1]</field>
       <field type="float" name="pos">Sensed position [-1, 1]</field>
