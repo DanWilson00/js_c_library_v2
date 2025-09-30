@@ -1,7 +1,7 @@
 #pragma once
 // MESSAGE ULTRAMOTION_PORT PACKING
 
-#define MAVLINK_MSG_ID_ULTRAMOTION_PORT 180
+#define MAVLINK_MSG_ID_ULTRAMOTION_PORT 500
 
 
 typedef struct __mavlink_ultramotion_port_t {
@@ -19,17 +19,17 @@ typedef struct __mavlink_ultramotion_port_t {
 
 #define MAVLINK_MSG_ID_ULTRAMOTION_PORT_LEN 22
 #define MAVLINK_MSG_ID_ULTRAMOTION_PORT_MIN_LEN 22
-#define MAVLINK_MSG_ID_180_LEN 22
-#define MAVLINK_MSG_ID_180_MIN_LEN 22
+#define MAVLINK_MSG_ID_500_LEN 22
+#define MAVLINK_MSG_ID_500_MIN_LEN 22
 
 #define MAVLINK_MSG_ID_ULTRAMOTION_PORT_CRC 85
-#define MAVLINK_MSG_ID_180_CRC 85
+#define MAVLINK_MSG_ID_500_CRC 85
 
 
 
 #if MAVLINK_COMMAND_24BIT
 #define MAVLINK_MESSAGE_INFO_ULTRAMOTION_PORT { \
-    180, \
+    500, \
     "ULTRAMOTION_PORT", \
     10, \
     {  { "pos_cmd", NULL, MAVLINK_TYPE_FLOAT, 0, 0, offsetof(mavlink_ultramotion_port_t, pos_cmd) }, \
@@ -340,7 +340,7 @@ static inline void mavlink_msg_ultramotion_port_send_struct(mavlink_channel_t ch
 
 #if MAVLINK_MSG_ID_ULTRAMOTION_PORT_LEN <= MAVLINK_MAX_PAYLOAD_LEN
 /*
-  This variant of _send() can be used to save stack space by re-using
+  This variant of _send() can be used to save stack space by reusing
   memory from the receive buffer.  The caller provides a
   mavlink_message_t which is the size of a full mavlink message. This
   is usually the receive buffer for the channel, and allows a reply to an
