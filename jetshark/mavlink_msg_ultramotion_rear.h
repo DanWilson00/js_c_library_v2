@@ -1,7 +1,7 @@
 #pragma once
 // MESSAGE ULTRAMOTION_REAR PACKING
 
-#define MAVLINK_MSG_ID_ULTRAMOTION_REAR 182
+#define MAVLINK_MSG_ID_ULTRAMOTION_REAR 502
 
 
 typedef struct __mavlink_ultramotion_rear_t {
@@ -19,17 +19,17 @@ typedef struct __mavlink_ultramotion_rear_t {
 
 #define MAVLINK_MSG_ID_ULTRAMOTION_REAR_LEN 22
 #define MAVLINK_MSG_ID_ULTRAMOTION_REAR_MIN_LEN 22
-#define MAVLINK_MSG_ID_182_LEN 22
-#define MAVLINK_MSG_ID_182_MIN_LEN 22
+#define MAVLINK_MSG_ID_502_LEN 22
+#define MAVLINK_MSG_ID_502_MIN_LEN 22
 
 #define MAVLINK_MSG_ID_ULTRAMOTION_REAR_CRC 150
-#define MAVLINK_MSG_ID_182_CRC 150
+#define MAVLINK_MSG_ID_502_CRC 150
 
 
 
 #if MAVLINK_COMMAND_24BIT
 #define MAVLINK_MESSAGE_INFO_ULTRAMOTION_REAR { \
-    182, \
+    502, \
     "ULTRAMOTION_REAR", \
     10, \
     {  { "pos_cmd", NULL, MAVLINK_TYPE_FLOAT, 0, 0, offsetof(mavlink_ultramotion_rear_t, pos_cmd) }, \
@@ -340,7 +340,7 @@ static inline void mavlink_msg_ultramotion_rear_send_struct(mavlink_channel_t ch
 
 #if MAVLINK_MSG_ID_ULTRAMOTION_REAR_LEN <= MAVLINK_MAX_PAYLOAD_LEN
 /*
-  This variant of _send() can be used to save stack space by re-using
+  This variant of _send() can be used to save stack space by reusing
   memory from the receive buffer.  The caller provides a
   mavlink_message_t which is the size of a full mavlink message. This
   is usually the receive buffer for the channel, and allows a reply to an
