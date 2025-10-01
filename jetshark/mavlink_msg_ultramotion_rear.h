@@ -1,7 +1,7 @@
 #pragma once
 // MESSAGE ULTRAMOTION_REAR PACKING
 
-#define MAVLINK_MSG_ID_ULTRAMOTION_REAR 502
+#define MAVLINK_MSG_ID_ULTRAMOTION_REAR 52502
 
 
 typedef struct __mavlink_ultramotion_rear_t {
@@ -19,17 +19,17 @@ typedef struct __mavlink_ultramotion_rear_t {
 
 #define MAVLINK_MSG_ID_ULTRAMOTION_REAR_LEN 22
 #define MAVLINK_MSG_ID_ULTRAMOTION_REAR_MIN_LEN 22
-#define MAVLINK_MSG_ID_502_LEN 22
-#define MAVLINK_MSG_ID_502_MIN_LEN 22
+#define MAVLINK_MSG_ID_52502_LEN 22
+#define MAVLINK_MSG_ID_52502_MIN_LEN 22
 
 #define MAVLINK_MSG_ID_ULTRAMOTION_REAR_CRC 150
-#define MAVLINK_MSG_ID_502_CRC 150
+#define MAVLINK_MSG_ID_52502_CRC 150
 
 
 
 #if MAVLINK_COMMAND_24BIT
 #define MAVLINK_MESSAGE_INFO_ULTRAMOTION_REAR { \
-    502, \
+    52502, \
     "ULTRAMOTION_REAR", \
     10, \
     {  { "pos_cmd", NULL, MAVLINK_TYPE_FLOAT, 0, 0, offsetof(mavlink_ultramotion_rear_t, pos_cmd) }, \

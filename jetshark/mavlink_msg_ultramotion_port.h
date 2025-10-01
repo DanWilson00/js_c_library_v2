@@ -1,7 +1,7 @@
 #pragma once
 // MESSAGE ULTRAMOTION_PORT PACKING
 
-#define MAVLINK_MSG_ID_ULTRAMOTION_PORT 500
+#define MAVLINK_MSG_ID_ULTRAMOTION_PORT 52500
 
 
 typedef struct __mavlink_ultramotion_port_t {
@@ -19,17 +19,17 @@ typedef struct __mavlink_ultramotion_port_t {
 
 #define MAVLINK_MSG_ID_ULTRAMOTION_PORT_LEN 22
 #define MAVLINK_MSG_ID_ULTRAMOTION_PORT_MIN_LEN 22
-#define MAVLINK_MSG_ID_500_LEN 22
-#define MAVLINK_MSG_ID_500_MIN_LEN 22
+#define MAVLINK_MSG_ID_52500_LEN 22
+#define MAVLINK_MSG_ID_52500_MIN_LEN 22
 
 #define MAVLINK_MSG_ID_ULTRAMOTION_PORT_CRC 85
-#define MAVLINK_MSG_ID_500_CRC 85
+#define MAVLINK_MSG_ID_52500_CRC 85
 
 
 
 #if MAVLINK_COMMAND_24BIT
 #define MAVLINK_MESSAGE_INFO_ULTRAMOTION_PORT { \
-    500, \
+    52500, \
     "ULTRAMOTION_PORT", \
     10, \
     {  { "pos_cmd", NULL, MAVLINK_TYPE_FLOAT, 0, 0, offsetof(mavlink_ultramotion_port_t, pos_cmd) }, \

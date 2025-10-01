@@ -1,7 +1,7 @@
 #pragma once
 // MESSAGE ULTRAMOTION_SB PACKING
 
-#define MAVLINK_MSG_ID_ULTRAMOTION_SB 501
+#define MAVLINK_MSG_ID_ULTRAMOTION_SB 52501
 
 
 typedef struct __mavlink_ultramotion_sb_t {
@@ -19,17 +19,17 @@ typedef struct __mavlink_ultramotion_sb_t {
 
 #define MAVLINK_MSG_ID_ULTRAMOTION_SB_LEN 22
 #define MAVLINK_MSG_ID_ULTRAMOTION_SB_MIN_LEN 22
-#define MAVLINK_MSG_ID_501_LEN 22
-#define MAVLINK_MSG_ID_501_MIN_LEN 22
+#define MAVLINK_MSG_ID_52501_LEN 22
+#define MAVLINK_MSG_ID_52501_MIN_LEN 22
 
 #define MAVLINK_MSG_ID_ULTRAMOTION_SB_CRC 137
-#define MAVLINK_MSG_ID_501_CRC 137
+#define MAVLINK_MSG_ID_52501_CRC 137
 
 
 
 #if MAVLINK_COMMAND_24BIT
 #define MAVLINK_MESSAGE_INFO_ULTRAMOTION_SB { \
-    501, \
+    52501, \
     "ULTRAMOTION_SB", \
     10, \
     {  { "pos_cmd", NULL, MAVLINK_TYPE_FLOAT, 0, 0, offsetof(mavlink_ultramotion_sb_t, pos_cmd) }, \
